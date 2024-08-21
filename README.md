@@ -1,160 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevOps</title>
-    <style>
-        /* General Styling */
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            color: #333;
-            background-color: #f4f4f4;
-        }
 
-        h1, h2, h3 {
-            color: #4CAF50;
-            text-align: center;
-            text-shadow: 1px 1px 2px #aaa;
-        }
-
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 20px;
-        }
-
-        h2 {
-            font-size: 2em;
-            margin-bottom: 15px;
-        }
-
-        h3 {
-            font-size: 1.5em;
-            margin-bottom: 10px;
-        }
-
-        /* Link Styling */
-        a {
-            color: #ff5722;
-            text-decoration: none;
-            border-bottom: 2px solid transparent;
-            transition: border-bottom 0.3s;
-        }
-
-        a:hover {
-            border-bottom: 2px solid #ff5722;
-        }
-
-        /* Paragraph Styling */
-        p {
-            margin-bottom: 20px;
-            padding: 10px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        /* Custom Borders for Sections */
-        hr {
-            border: 0;
-            height: 2px;
-            background: linear-gradient(to right, #4CAF50, #ff5722);
-            margin: 20px 0;
-        }
-
-        /* List Styling */
-        ul {
-            list-style-type: square;
-            margin: 20px 0;
-            padding-left: 20px;
-        }
-
-        li {
-            margin-bottom: 10px;
-        }
-
-        /* Highlighted Text */
-        .highlight {
-            background-color: #ffeb3b;
-            padding: 2px 5px;
-            border-radius: 3px;
-        }
-
-        /* Blockquote Styling */
-        blockquote {
-            margin: 20px 0;
-            padding: 10px 20px;
-            background-color: #e0f7fa;
-            border-left: 5px solid #00acc1;
-        }
-
-        /* Custom Icons for Headings */
-        .icon {
-            margin-right: 10px;
-        }
-
-        /* Custom Styling for Tool Sections */
-        .tool-section {
-            margin-bottom: 30px;
-            padding: 15px;
-            background-color: #ffffff;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .tool-section h3 {
-            margin-top: 0;
-        }
-
-        /* Custom Styling for DevOps Lifecycle */
-        .devops-lifecycle {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            margin: 30px 0;
-        }
-
-        .devops-step {
-            width: 30%;
-            margin-bottom: 20px;
-            padding: 15px;
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            transition: transform 0.3s;
-        }
-
-        .devops-step:hover {
-            transform: scale(1.05);
-        }
-    </style>
-</head>
-<body>
-
+<div align="center">
 <h1>DevOps</h1>
 <h2>Diving into the World of DevOps</h2>
-
-![image](https://github.com/user-attachments/assets/8d722284-ce62-42b1-b0f8-888b55985c37)
-
-<hr>
-
+</div>
 <strong>
     DevOps is a set of practices, tools, and a cultural philosophy that automates and integrates the processes between software development (Dev) and IT operations (Ops). 
     Its goal is to help organizations deliver applications and services at high velocity, improving and evolving products at a faster pace than organizations using traditional software development 
     and infrastructure management processes. This speed enables organizations to better serve their customers and compete more effectively in the market.
 </strong>
-
-<a href="https://www.atlassian.com/devops/what-is-devops"><em>Key Concepts in DevOps:</em></a>
-
-<p class="highlight" style="color: blue">Cultural Philosophy</p> 
 <hr>
 
-<h2>Collaboration</h2> 
+![image](https://github.com/user-attachments/assets/8712cdac-ec33-48a5-8a1f-75180662ed2a)
+
+<article>Read this Article by <strong>Tom Hall</strong> <em> DevOps Advocate & Practitioner: </em><a href="https://www.atlassian.com/devops/what-is-devops"> 5 Key Concepts in DevOps</a> </article>
+<hr>
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/0a64eed0-5f9b-4d9f-bcbf-2cdbc539c7dd" alt="image" width="30" height="30">
+    <p>Cultural DevOps Approach</p>
+</div>
+
+<p>
+    <strong>Collaboration</strong> - DevOps fosters a culture of collaboration between teams that traditionally functioned in <a href="https://www.techopedia.com/definition/25939/silo">silos</a>, namely development, operations, and quality assurance. The idea is to align all teams towards a common goal of delivering high-quality software rapidly.
+</p> 
+<p><strong>Ownership and Accountability</strong> - Teams own the lifecycle of their products. They are responsible for everything from development to deployment and monitoring.</p>
+
+<p><strong>Automation</strong> - <a href="https://www.educative.io/blog/what-is-ci-cd-devops">Continuous Integration (CI):</a> This involves automatically integrating code changes from multiple contributors into a shared repository. The goal is to identify and fix issues early by frequently merging changes into a central repository.
+    
+<a href="https://www.educative.io/blog/what-is-ci-cd-devops">Continuous Delivery (CD):</a> Building upon CI, CD ensures that code changes are automatically prepared for release to production. This includes automated testing, environment provisioning, and even deployment.
+
+<a href="https://www.atlassian.com/microservices/cloud-computing/infrastructure-as-code">Infrastructure as Code (IaC):</a> This practice involves managing and provisioning computing infrastructure through machine-readable configuration files, rather than through physical hardware configuration or interactive configuration tools. Tools like Terraform, AWS CloudFormation, and Ansible are commonly used for IaC.</p>
+<p></p>
+<p></p>
+<p></p>
 
 <div class="tool-section">
     <h3><span class="icon">🔧</span> Tools:</h3>
@@ -172,7 +50,7 @@
 <h2>DevOps Lifecycle</h2>
 
 <div class="devops-lifecycle">
-    <div class="devops-step"><h3>Plan</h3>Defining and planning features and functionalities of the application.</div>
+    <div class="devops-step"><h3>Plan</h3> <>Defining and planning features and functionalities of the application.</div>
     <div class="devops-step"><h3>Code</h3>Writing and managing the source code.</div>
     <div class="devops-step"><h3>Build</h3>Compiling the code into binaries or packages that can be deployed.</div>
     <div class="devops-step"><h3>Test</h3>Automated testing to ensure code is functioning as expected.</div>
@@ -203,7 +81,7 @@
 
 <h2>DevOps Best Practices</h2>
 <ul>
-    <li>Start Small</li>
+    <li>Start Small (I recommend)</li>
     <li>Automate Everything</li>
     <li>Measure and Optimize</li>
     <li>Integrate Security Early</li>
