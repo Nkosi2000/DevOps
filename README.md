@@ -1,5 +1,8 @@
 # DevOps
 Diving into the world of DevOps.
+
+![image](https://github.com/user-attachments/assets/8d722284-ce62-42b1-b0f8-888b55985c37)
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 DevOps is a set of practices, tools, and a cultural philosophy that automates and integrates the processes between software development (Dev) and IT operations (Ops). 
 Its goal is to help organizations deliver applications and services at high velocity, improving and evolving products at a faster pace than organizations using traditional software development 
