@@ -1,0 +1,7 @@
+{
+  "name": "DEMODEVOPS",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
