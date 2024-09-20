@@ -1,0 +1,17 @@
+{
+  "name": "devops",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">\r <h1>DevOps</h1>\r <h2>Diving into the World of DevOps</h2>\r </div>\r <strong>\r     DevOps is a set of practices, tools, and a cultural philosophy that automates and integrates the processes between software development (Dev) and IT operations (Ops). \r     Its goal is to help organizations deliver applications and services at high velocity, improving and evolving products at a faster pace than organizations using traditional software development \r     and infrastructure management processes. This speed enables organizations to better serve their customers and compete more effectively in the market.\r </strong>\r <hr>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
+
