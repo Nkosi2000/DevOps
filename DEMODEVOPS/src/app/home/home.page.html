@@ -1,20 +1,44 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<div class="container">
+  <!-- Shared track for developer and operator -->
+  <div class="track">
+    <div class="railway-line"></div>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+    <!-- Developer character -->
+    <div class="character developer" [ngClass]="developerActive ? 'active' : ''">
+      👨‍💻 <!-- Developer Icon -->
+    </div>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <!-- DevOps Lifecycle Stages for Developer -->
+    <div class="stage" [ngClass]="currentStage === 'plan' ? 'active' : ''">
+      <span class="icon">📝</span> Plan
+    </div>
+    <div class="stage" [ngClass]="currentStage === 'code' ? 'active' : ''">
+      <span class="icon">💻</span> Code
+    </div>
+    <div class="stage" [ngClass]="currentStage === 'build' ? 'active' : ''">
+      <span class="icon">🏗️</span> Build
+    </div>
+    <div class="stage" [ngClass]="currentStage === 'test' ? 'active' : ''">
+      <span class="icon">✅</span> Test
+    </div>
+
+    <!-- Operator character -->
+    <div class="character operator" [ngClass]="operatorActive ? 'active' : ''">
+      👷‍♂️ <!-- Operator Icon -->
+    </div>
+
+    <!-- DevOps Lifecycle Stages for Operator -->
+    <div class="stage" [ngClass]="currentStage === 'release' ? 'active' : ''">
+      <span class="icon">🚀</span> Release
+    </div>
+    <div class="stage" [ngClass]="currentStage === 'deploy' ? 'active' : ''">
+      <span class="icon">🔧</span> Deploy
+    </div>
+    <div class="stage" [ngClass]="currentStage === 'operate' ? 'active' : ''">
+      <span class="icon">👨‍🏭</span> Operate
+    </div>
+    <div class="stage" [ngClass]="currentStage === 'monitor' ? 'active' : ''">
+      <span class="icon">📈</span> Monitor
+    </div>
   </div>
-</ion-content>
+</div>
